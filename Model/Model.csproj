@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{53995DBB-9836-4647-AD22-865884FDEB9E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Model</AssemblyName>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Maticsoft.Model/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerToLevel.cs" />
+    <Compile Include="Customer_Accout.cs" />
+    <Compile Include="Customer_Address.cs" />
+    <Compile Include="Customer_Level.cs" />
+    <Compile Include="Customer_LevelPageGroup.cs" />
+    <Compile Include="C_StandPrice.cs" />
+    <Compile Include="EnumHelp.cs" />
+    <Compile Include="NameType.cs" />
+    <Compile Include="NewsModel.cs" />
+    <Compile Include="NewsType.cs" />
+    <Compile Include="OrderItem.cs" />
+    <Compile Include="OrderRequest.cs" />
+    <Compile Include="page.cs" />
+    <Compile Include="PageToPageGroup.cs" />
+    <Compile Include="Paper_In.cs" />
+    <Compile Include="Paper_Out.cs" />
+    <Compile Include="PartItem.cs" />
+    <Compile Include="ProductPaperUnit.cs" />
+    <Compile Include="ProductProcessUnit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PsSheet.cs" />
+    <Compile Include="P_MaterialList2.cs" />
+    <Compile Include="OrderPart.cs" />
+    <Compile Include="P_PayList.cs" />
+    <Compile Include="P_PrintList.cs" />
+    <Compile Include="P_PrintList2.cs" />
+    <Compile Include="P_ProcessList.cs" />
+    <Compile Include="P_ProcessList2.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="R_ProductSize.cs" />
+    <Compile Include="SinglePaper.cs" />
+    <Compile Include="StatisticalData.cs" />
+    <Compile Include="Strore_Month.cs" />
+    <Compile Include="SysNode.cs" />
+    <Compile Include="Accounts_UserProcess.cs" />
+    <Compile Include="C_ProcessPrice.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="Machine.cs" />
+    <Compile Include="MachineType.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="MaterialType.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="News.cs" />
+    <Compile Include="P_Action.cs" />
+    <Compile Include="P_AskList.cs" />
+    <Compile Include="P_ConstructionAudit.cs" />
+    <Compile Include="P_MaterialList.cs" />
+    <Compile Include="P_Order.cs" />
+    <Compile Include="P_OrderDetail.cs" />
+    <Compile Include="P_PaperList.cs" />
+    <Compile Include="P_ProductList.cs" />
+    <Compile Include="P_ProductProcess.cs" />
+    <Compile Include="P_PsList.cs" />
+    <Compile Include="P_Sheet.cs" />
+    <Compile Include="P_Step.cs" />
+    <Compile Include="P_WorkOrder.cs" />
+    <Compile Include="Paper_Color.cs" />
+    <Compile Include="Paper_Rank.cs" />
+    <Compile Include="Paper_Size.cs" />
+    <Compile Include="Paper_Stand.cs" />
+    <Compile Include="Paper_Store.cs" />
+    <Compile Include="Paper_Type.cs" />
+    <Compile Include="Process.cs" />
+    <Compile Include="ProcessAction.cs" />
+    <Compile Include="ProcessType.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductSize.cs" />
+    <Compile Include="ProductType.cs" />
+    <Compile Include="R_MatchineMaterial.cs" />
+    <Compile Include="R_PaperAddSchemeProcess.cs" />
+    <Compile Include="R_PaperStandMatchine.cs" />
+    <Compile Include="R_ProcessFactory.cs" />
+    <Compile Include="R_ProcessMatchine.cs" />
+    <Compile Include="R_ProductPaper.cs" />
+    <Compile Include="R_ProductProcess.cs" />
+    <Compile Include="R_ShowProcessType.cs" />
+    <Compile Include="R_ShowProductProcess.cs" />
+    <Compile Include="R_WorkOrder.cs" />
+    <Compile Include="R_WorkUnit.cs" />
+    <Compile Include="R_WorkUnitCode.cs" />
+    <Compile Include="S_Log.cs" />
+    <Compile Include="S_Tree.cs" />
+    <Compile Include="Scheme_Alternative.cs" />
+    <Compile Include="Scheme_PaperAdd.cs" />
+    <Compile Include="Service_Customer.cs" />
+    <Compile Include="Servicer.cs" />
+    <Compile Include="Size.cs" />
+    <Compile Include="StringList.cs" />
+    <Compile Include="T_DeliveMode.cs" />
+    <Compile Include="T_ModeDistance.cs" />
+    <Compile Include="T_ModeKg.cs" />
+    <Compile Include="T_ModePrice.cs" />
+    <Compile Include="UserPage.cs" />
+    <Compile Include="UserRect.cs" />
+    <Compile Include="UserProduct.cs" />
+    <Compile Include="TreeNode.cs" />
+    <Compile Include="Common.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\JxPrint.Model.pdb" />
+    <Content Include="obj\Debug\Model.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataModel\DataSource.csproj">
+      <Project>{7F804E72-CDF7-4EA4-9CF6-65C91C4A53BD}</Project>
+      <Name>DataSource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
